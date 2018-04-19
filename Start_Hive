@@ -1,0 +1,17 @@
+CREATE TABLE COUNTRY_RISK_LIST_SIRA_2017(
+COUNTRY_NAME_ENG string,  
+COUNTRY_CODE string,  
+ML string,  
+TF string,  
+BC string,  
+TE string)    
+STORED AS ORC;
+
+
+
+INSERT INTO TABLE COUNTRY_RISK_LIST_SIRA_2017_new
+VALUES 
+('ANDORRA', 'AD', '1', NULL, '1', NULL, '1'),
+('UNITED ARAB EMIRATES', 'AE', '2', '1', '1', '1', '1'),
+('AFGHANISTAN', 'AF', '3', '3', '2', '3', '3');
+
